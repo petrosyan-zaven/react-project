@@ -1,0 +1,53 @@
+{
+    "games":[
+    {
+            "id": 1,
+            "name": "Coll Of duty",
+            "genre": "Action",
+            "price": "$ 35",
+            "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/6/6a/Call_of_Duty_-_Modern_Warfare_Remastered.png/274px-Call_of_Duty_-_Modern_Warfare_Remastered.png"
+    },
+    {
+            "id": 2,
+            "name": "Need for speed",
+            "genre": "Racing",
+            "price": "$ 48",
+            "img": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg?20200414185116"
+     } ,
+    {
+            "id": 3,
+            "name": "PUBG",
+            "genre": "Battlegrounds",
+            "price": "$ 30",
+            "img": "https://upload.wikimedia.org/wikipedia/ru/c/c9/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%B8%D0%B3%D1%80%D1%8B_PlayerUnknown%27s_Battlegrounds.jpg"
+     } ,
+    {
+            "id": 4,
+            "name": "Assassin's creed",
+            "genre": "Action",
+            "price": "$ 55",
+            "img": "https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7qSZMxLOAsEPF6tXGFD83n/b0914152c722de321e278683a844fd10/ac-brotherhood.jpg?imwidth=360"
+     } ,
+    {
+            "id": 5,
+            "name": "Motal Combat",
+            "genre": "Fighting",
+            "price": "$ 35",
+            "img": "https://m.media-amazon.com/images/M/MV5BYmRlMDkwNmQtMTA4Mi00ZDE3LThiOWItYWE3NmZjMDg3MTg2XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg"
+    } ,
+    {
+            "id": 6,
+            "name": "Counter Strike",
+            "genre": "Shooter",
+            "price": "$ 35",
+            "img": "https://britishesports.org/wp-content/uploads/csgo-787x460-1.jpeg"
+     } ,
+    {
+            "id": 7,
+            "name": "Forza",
+            "genre": "Racing",
+            "price": "$ 35",
+            "img": "https://i.ytimg.com/vi/onFtzs2mmI8/maxresdefault.jpg"
+    }
+]
+}
