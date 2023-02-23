@@ -1,0 +1,14 @@
+.Asaid {
+    width: 20%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+     a {
+        padding: 20px;
+        font-size: 20px;
+     }
+     a:hover, a:active {
+        cursor: pointer;
+        color: red;
+     }
+}

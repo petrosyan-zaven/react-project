@@ -5,7 +5,7 @@
             "name": "Coll Of duty",
             "genre": "Action",
             "price": "$ 35",
-            "img": "https://upload.wikimedia.org/wikipedia/ru/thumb/6/6a/Call_of_Duty_-_Modern_Warfare_Remastered.png/274px-Call_of_Duty_-_Modern_Warfare_Remastered.png"
+            "img": "https://media-assets.wired.it/photos/6356a8d51d38110f65cfc614/2:3/w_600,h_900,c_limit/Call-of-duty-Modern-Warfare-2-cover.jpg"
     },
     {
             "id": 2,
@@ -39,15 +39,15 @@
             "id": 6,
             "name": "Counter Strike",
             "genre": "Shooter",
-            "price": "$ 35",
+            "price": "$ 37",
             "img": "https://britishesports.org/wp-content/uploads/csgo-787x460-1.jpeg"
      } ,
     {
             "id": 7,
             "name": "Forza",
             "genre": "Racing",
-            "price": "$ 35",
-            "img": "https://i.ytimg.com/vi/onFtzs2mmI8/maxresdefault.jpg"
+            "price": "$ 39",
+            "img": "https://s2.gaming-cdn.com/images/products/11293/orig/forza-motorsport-7-pc-xbox-one-xbox-series-x-s-xbox-one-pc-xbox-series-x-s-game-microsoft-store-united-states-cover.jpg?v=1653558083"
     }
 ]
 }

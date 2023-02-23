@@ -1,10 +1,9 @@
 import React from 'react'
+import './about.scss'
 
-const About = () => {
+function About() {
   return (
-    <div className='About'>
-        About
-    </div>
+    <div className='About'>About</div>
   )
 }
 

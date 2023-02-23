@@ -1,12 +1,9 @@
 import React from 'react'
-import './Footer.css'
-import Api from '../../pages/Api'
+import './footer.scss'
 
-const Footer = () => {
+function Footer() {
   return (
-    <div className='Footer'> 
-      <Api/>
-    </div>
+    <div className='Footer'>Footer</div>
   )
 }
 
