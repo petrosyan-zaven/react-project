@@ -5,7 +5,9 @@ import Footer from './components/footer';
 import Asaid from './components/asaid';
 import Home from './pages/home'
 import About from './pages/about';
-import SinglItem from './components/singl-item'
+import SinglItem from './components/singl-item';
+import Contact from './pages/contact/Contact';
+import CategoryList from './pages/categoryList/CategoryList';
 
 
 function App() {
@@ -17,8 +19,10 @@ function App() {
       <Asaid />
         <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/contact' element={<Contact/>} />
           <Route path='/about' element={<About />} />
-          <Route path='/:id' element={<SinglItem/>} />
+          <Route exact path='/:id' element={<SinglItem/>} />
+          <Route path='/genre/:genre' element={<CategoryList/>}/>
         </Routes>
       <Footer />
     </Router>

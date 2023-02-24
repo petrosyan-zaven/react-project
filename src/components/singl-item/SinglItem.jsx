@@ -17,10 +17,10 @@ const SinglItem = () => {
         games?.map((game, index) => {
           if (game.id === +id) {
             return (
-              <div key={index} className='box'>
+        <div key={index} className='box'>
               <div className='card'>
-          <img src={game.img} alt={game.name} />
-        </div>
+                  <img src={game.img} alt={game.name} />
+              </div>
         <div className='card'>
           <h1>{game.name}</h1>
           <h2>{game.price}</h2>
@@ -32,7 +32,7 @@ const SinglItem = () => {
         })
       }
 
-      <button onClick={()=> navigate(-1)}> GO Back </button>
+      <button onClick={()=> navigate('/')}> GO Back </button>
     </div>
   )
 }

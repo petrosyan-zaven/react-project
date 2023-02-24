@@ -1,0 +1,58 @@
+.CategoryList {
+    width: 80%;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    .card {
+        width: 22%;
+        .item {
+            position: relative;
+            background: #000;
+            height: 350px;
+            border-radius: 10px;
+            color: rgba(240, 248, 255, 0.633);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            .gameImg {
+                width: 100%;
+                height: auto;   
+            }
+            .btn-bay {
+                position: absolute;
+                left: auto;
+                bottom: 10%;
+                z-index: 1;
+                padding: 10px;
+                width: 30%;
+                height: 30px;
+                border-radius: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(3, 75, 3, 0.7);
+                color: #fff;
+                z-index: 4;
+                border: none;
+            }
+            .btn-bay:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .card:hover  .item{
+        flex: 2;
+        cursor: pointer;
+        z-index: 1;
+        transform: scale(1.1);
+        transition: .3s linear;
+        box-shadow: 10px 10px 25px ,
+        -10px -10px 25px ;
+    }
+    .goBack {
+        width: 50px;
+        height: 100px;
+    }
+}

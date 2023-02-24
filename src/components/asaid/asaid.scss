@@ -3,12 +3,18 @@
     height: 70vh;
     display: flex;
     flex-direction: column;
-     a {
-        padding: 20px;
-        font-size: 20px;
-     }
-     a:hover, a:active {
-        cursor: pointer;
+    nav {
+      font-size: 20px;
+      display: flex;
+      padding-left: 20px;
+
+      a {
+        padding: 5px;
+        color: green;
+      }
+   
+      a:hover, a.active {
         color: red;
-     }
+      }
+   }
 }
