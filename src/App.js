@@ -8,6 +8,8 @@ import About from './pages/about';
 import SinglItem from './components/singl-item';
 import Contact from './pages/contact/Contact';
 import CategoryList from './pages/categoryList/CategoryList';
+import AddGame from './pages/addGame/AddGame';
+import Basket from './components/basket/Basket';
 
 
 function App() {
@@ -21,8 +23,10 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/contact' element={<Contact/>} />
           <Route path='/about' element={<About />} />
+          <Route path='/addgames' element={<AddGame />} />
           <Route exact path='/:id' element={<SinglItem/>} />
           <Route path='/genre/:genre' element={<CategoryList/>}/>
+          <Route path='/basket' element={<Basket />}/>
         </Routes>
       <Footer />
     </Router>

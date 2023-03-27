@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 
-const apiUrl = "http://localhost:3000/games" ;
+const apiUrl = "http://localhost:3000/" ;
 
 export default function useGameData() {
 

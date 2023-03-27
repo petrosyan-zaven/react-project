@@ -1,18 +1,10 @@
 {
     "games":[
     {
-            "id": 1,
-            "name": "Coll Of duty",
-            "genre": "Action",
-            "price": "$ 35",
-            "img": "https://media-assets.wired.it/photos/6356a8d51d38110f65cfc614/2:3/w_600,h_900,c_limit/Call-of-duty-Modern-Warfare-2-cover.jpg"
+            "id": 1, "name": "Coll Of duty", "genre": "Action", "price": "$ 35", "img": "https://media-assets.wired.it/photos/6356a8d51d38110f65cfc614/2:3/w_600,h_900,c_limit/Call-of-duty-Modern-Warfare-2-cover.jpg"
     },
     {
-            "id": 2,
-            "name": "Need for speed",
-            "genre": "Racing",
-            "price": "$ 48",
-            "img": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg?20200414185116"
+            "id": 2, "name": "Need for speed", "genre": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg?20200414185116", "price": "$ 48", "img": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg?20200414185116"
      } ,
     {
             "id": 3,
